@@ -28,7 +28,7 @@ The code skips weekends and holidays. India: 2026-12-25. US: 2026-11-26 Thanksgi
 ## Setting up on the new machine
 
 1. Get the folder, keeping it outside OneDrive:
-   - **From GitHub:** `git clone https://github.com/<your GitHub name>/trading.git C:\trading`. It is a private repo, so sign in when Git asks.
+   - **From GitHub:** `git clone https://github.com/BENNYameen/trader.git C:\trading`. It is a private repo, so sign in when Git asks. Cloning into `C:\trading` gives the right layout.
    - **Or unzip** `trading-move-*.zip` into `C:\trading`.
 2. Install Python 3.8 or newer from python.org and tick "Add to PATH". It uses the standard library only; no pip packages are needed.
 3. Register both daily runs. In PowerShell, as Administrator if possible, run `powershell -ExecutionPolicy Bypass -File .claude\skills\trading-day\setup_server.ps1`. It converts the India times to the server's time zone. Claude may be blocked from registering tasks; if so, the user runs it.
