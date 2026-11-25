@@ -1,0 +1,28 @@
+{
+  "created_by": "trader-exit",
+  "symbol": "HCLTECH",
+  "side": "buy",
+  "date": "2026-11-23",
+  "setup": "orb",
+  "entry": 1367.7,
+  "entry_time": "10:10 AM",
+  "entry_bar": null,
+  "interval": "5m",
+  "opening_range": {
+    "high": 1364.9,
+    "low": 1351.1,
+    "minutes": 15
+  },
+  "stop": 1358.0,
+  "stop_rule": "or_mid",
+  "stop_label": "opening-range midpoint",
+  "target": 1377.4,
+  "target_r": 1.0,
+  "target_label": "1R (one times the risk)",
+  "risk_per_share": 9.7,
+  "reward_risk": 1.0,
+  "flat_by": "15:05",
+  "stop_detail": "($1,364.90 + $1,351.10) / 2 = $1358",
+  "created_at": "2026-11-23T04:41:12Z",
+  "note": "A stop is a plan, not a guarantee: a gap or a fast market can fill past it."
+}

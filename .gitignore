@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+# a run's lock file and half-written files belong to one machine only
+*.lock
+*.tmp
+**/.claude/settings.local.json
+# raw chat files stay out; the cleaned copy is claude-context/chat-history.md
+claude-context/chat/

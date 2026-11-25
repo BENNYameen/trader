@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-25",
+  "now_new_york": "2026-11-25 11:46",
+  "paper": true,
+  "results": [
+    {
+      "index": 1,
+      "symbol": "SBIN",
+      "side": "buy",
+      "kind": "entry",
+      "amount": "9 shares",
+      "value_usd": 10342.8,
+      "entry_ref": 1149.2,
+      "entry_ref_from": "plan",
+      "stop": 1139.7,
+      "target": 1158.7,
+      "risk_per_share": 9.5,
+      "max_loss": 85.5,
+      "reward_risk": 1.0,
+      "fingerprint": "6f9c636527873fe1",
+      "verdict": "PASS",
+      "reasons": [],
+      "warnings": [],
+      "info": [
+        "entry 1149.20 (the plan's entry), stop 1139.70, target 1158.70: risk 9.50 a share",
+        "max loss $85.50 (limit $150), reward:risk 1.00 (min 1)",
+        "today before this: 1 of unlimited trades, $111.30 of $450 daily loss"
+      ]
+    }
+  ],
+  "pass": 1,
+  "block": 0,
+  "warnings": [],
+  "cash_after": 4834.12,
+  "today": {
+    "orders_placed": 1,
+    "entries_placed": 1,
+    "loss_at_risk": 111.3,
+    "day_trades_5d": null
+  },
+  "checked_at": "2026-11-25T06:16:22Z",
+  "orders_file": "trader/orders.json"
+}

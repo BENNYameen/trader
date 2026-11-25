@@ -1,0 +1,148 @@
+{
+  "orders": [
+    {
+      "at": "2026-11-23T10:11:15+05:30",
+      "date": "2026-11-23",
+      "index": 1,
+      "fingerprint": "e1d9f52f89a8dba6",
+      "symbol": "HCLTECH",
+      "side": "buy",
+      "plain": "BUY 8 HCLTECH, market, good for today / stop-loss 1358.00 / take-profit 1377.40 / max loss about $77.60 if the stop fills at 1358.00 (it can fill worse in a fast market)",
+      "status": "approved",
+      "auto": true,
+      "reply": "AUTO: standing instruction for paper trading (\"auto_paper\": true)"
+    },
+    {
+      "at": "2026-11-23T10:11:15+05:30",
+      "date": "2026-11-23",
+      "index": 1,
+      "fingerprint": "e1d9f52f89a8dba6",
+      "symbol": "HCLTECH",
+      "side": "buy",
+      "qty": "8",
+      "kind": "entry",
+      "max_loss": 74.4,
+      "stop": 1358.0,
+      "plain": "BUY 8 HCLTECH, market, good for today / stop-loss 1358.00 / take-profit 1377.40 / max loss about $77.60 if the stop fills at 1358.00 (it can fill worse in a fast market)",
+      "status": "placed",
+      "practice": true,
+      "note": "practice fill at 1367.30"
+    },
+    {
+      "at": "2026-11-23T10:11:15+05:30",
+      "date": "2026-11-23",
+      "status": "filled",
+      "symbol": "HCLTECH",
+      "side": "buy",
+      "qty": "8",
+      "price": 1367.3,
+      "plain": "BUY 8 HCLTECH at 1367.30"
+    },
+    {
+      "at": "2026-11-23T10:20:00+05:30",
+      "date": "2026-11-23",
+      "status": "filled",
+      "symbol": "HCLTECH",
+      "side": "sell",
+      "qty": "8",
+      "price": 1377.4,
+      "plain": "SELL 8 HCLTECH at 1377.40"
+    },
+    {
+      "at": "2026-11-25T09:36:22+05:30",
+      "date": "2026-11-25",
+      "index": 1,
+      "fingerprint": "7ebce3a825564da8",
+      "symbol": "POWERGRID",
+      "side": "buy",
+      "plain": "BUY 42 POWERGRID, market, good for today / stop-loss 262.20 / take-profit 267.70 / max loss about $115.50 if the stop fills at 262.20 (it can fill worse in a fast market)",
+      "status": "approved",
+      "auto": true,
+      "reply": "AUTO: standing instruction for paper trading (\"auto_paper\": true)"
+    },
+    {
+      "at": "2026-11-25T09:36:22+05:30",
+      "date": "2026-11-25",
+      "index": 1,
+      "fingerprint": "7ebce3a825564da8",
+      "symbol": "POWERGRID",
+      "side": "buy",
+      "qty": "42",
+      "kind": "entry",
+      "max_loss": 111.3,
+      "stop": 262.2,
+      "plain": "BUY 42 POWERGRID, market, good for today / stop-loss 262.20 / take-profit 267.70 / max loss about $115.50 if the stop fills at 262.20 (it can fill worse in a fast market)",
+      "status": "placed",
+      "practice": true,
+      "note": "practice fill at 264.85"
+    },
+    {
+      "at": "2026-11-25T09:36:22+05:30",
+      "date": "2026-11-25",
+      "status": "filled",
+      "symbol": "POWERGRID",
+      "side": "buy",
+      "qty": "42",
+      "price": 264.85,
+      "plain": "BUY 42 POWERGRID at 264.85"
+    },
+    {
+      "at": "2026-11-25T11:00:00+05:30",
+      "date": "2026-11-25",
+      "status": "filled",
+      "symbol": "POWERGRID",
+      "side": "sell",
+      "qty": "42",
+      "price": 267.7,
+      "plain": "SELL 42 POWERGRID at 267.70"
+    },
+    {
+      "at": "2026-11-25T11:46:23+05:30",
+      "date": "2026-11-25",
+      "index": 1,
+      "fingerprint": "6f9c636527873fe1",
+      "symbol": "SBIN",
+      "side": "buy",
+      "plain": "BUY 9 SBIN, market, good for today / stop-loss 1139.70 / take-profit 1158.70 / max loss about $85.50 if the stop fills at 1139.70 (it can fill worse in a fast market)",
+      "status": "approved",
+      "auto": true,
+      "reply": "AUTO: standing instruction for paper trading (\"auto_paper\": true)"
+    },
+    {
+      "at": "2026-11-25T11:46:23+05:30",
+      "date": "2026-11-25",
+      "index": 1,
+      "fingerprint": "6f9c636527873fe1",
+      "symbol": "SBIN",
+      "side": "buy",
+      "qty": "9",
+      "kind": "entry",
+      "max_loss": 95.4,
+      "stop": 1139.7,
+      "plain": "BUY 9 SBIN, market, good for today / stop-loss 1139.70 / take-profit 1158.70 / max loss about $85.50 if the stop fills at 1139.70 (it can fill worse in a fast market)",
+      "status": "placed",
+      "practice": true,
+      "note": "practice fill at 1150.30"
+    },
+    {
+      "at": "2026-11-25T11:46:23+05:30",
+      "date": "2026-11-25",
+      "status": "filled",
+      "symbol": "SBIN",
+      "side": "buy",
+      "qty": "9",
+      "price": 1150.3,
+      "plain": "BUY 9 SBIN at 1150.30"
+    },
+    {
+      "at": "2026-11-25T12:55:00+05:30",
+      "date": "2026-11-25",
+      "status": "filled",
+      "symbol": "SBIN",
+      "side": "sell",
+      "qty": "9",
+      "price": 1139.7,
+      "plain": "SELL 9 SBIN at 1139.70"
+    }
+  ]
+}

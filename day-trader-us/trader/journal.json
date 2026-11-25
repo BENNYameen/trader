@@ -1,0 +1,9 @@
+{
+ "created_by": "autopilot/us_auto.py",
+ "started": "2026-11-25",
+ "start_cash": 162.66,
+ "usd_inr": 92.22,
+ "rules": "original day-trader-skill code; see autopilot/us_auto.py",
+ "trades": [],
+ "days": {}
+}

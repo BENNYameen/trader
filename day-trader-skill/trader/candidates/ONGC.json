@@ -1,0 +1,28 @@
+{
+  "created_by": "trader-exit",
+  "symbol": "ONGC",
+  "side": "buy",
+  "date": "2026-11-25",
+  "setup": "orb",
+  "entry": 223.9,
+  "entry_time": "9:35 AM",
+  "entry_bar": null,
+  "interval": "5m",
+  "opening_range": {
+    "high": 223.36,
+    "low": 221.79,
+    "minutes": 15
+  },
+  "stop": 222.57,
+  "stop_rule": "or_mid",
+  "stop_label": "opening-range midpoint",
+  "target": 225.23,
+  "target_r": 1.0,
+  "target_label": "1R (one times the risk)",
+  "risk_per_share": 1.33,
+  "reward_risk": 1.0,
+  "flat_by": "15:05",
+  "stop_detail": "($223.36 + $221.79) / 2 = $222.575, rounded down to the $0.01 tick",
+  "created_at": "2026-11-25T04:06:17Z",
+  "note": "A stop is a plan, not a guarantee: a gap or a fast market can fill past it."
+}

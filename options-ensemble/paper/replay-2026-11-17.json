@@ -1,0 +1,105 @@
+{
+ "created_by": "options-ensemble paper",
+ "start": "2026-11-17",
+ "start_cash": 15000.0,
+ "rules": [
+  "Paper only: Black-Scholes prices from India VIX, nothing is sent to any broker.",
+  "Algorithm B trades the account: every day it ranks the 19 indicators on all past days and keeps the best 5; a trade needs 4 of the 5 to agree. Donchian breakout keeps a shadow book for comparison.",
+  "Decisions at 10:15, 11:15, 12:15, 13:15, 14:15; at most one trade a day per book, NIFTY or SENSEX.",
+  "One lot (NIFTY 65, SENSEX 20), nearest weekly expiry with a day left; the strike nearest the money whose loss at the stop fits Rs 1,500.",
+  "Exit at premium -20 %, +40 % or 15:15, whichever first; stop checked first; Zerodha charges and Rs 0.50 a unit slippage each side."
+ ],
+ "books": {
+  "algo_b": {
+   "name": "ALGO B (trades the account)",
+   "cash": 13452.52,
+   "trades": [
+    {
+     "id": "2026-11-17-algo_b",
+     "book": "algo_b",
+     "date": "2026-11-17",
+     "index": "SENSEX",
+     "side": "CE",
+     "strike": 82700,
+     "expiry": "2026-11-19",
+     "lot": 20,
+     "decision": "11:15",
+     "spot": 82624.04,
+     "vix": 15.46,
+     "entry": 371.49,
+     "stop": 297.19,
+     "target": 520.08,
+     "strength": 5,
+     "top5": [
+      "Bollinger breakout",
+      "Donchian breakout",
+      "Session average",
+      "Opening range",
+      "MACD"
+     ],
+     "status": "closed",
+     "exit": 297.19,
+     "exit_time": "13:15",
+     "reason": "stop",
+     "gross": -1486.0,
+     "charges": 61.48,
+     "net": -1547.48,
+     "cash_after": 13452.52
+    }
+   ]
+  },
+  "donchian": {
+   "name": "Donchian breakout (shadow)",
+   "cash": 17609.78,
+   "trades": [
+    {
+     "id": "2026-11-17-donchian",
+     "book": "donchian",
+     "date": "2026-11-17",
+     "index": "NIFTY",
+     "side": "CE",
+     "strike": 25650,
+     "expiry": "2026-11-23",
+     "lot": 65,
+     "decision": "10:15",
+     "spot": 25379.6,
+     "vix": 15.18,
+     "entry": 103.02,
+     "stop": 82.41,
+     "target": 144.22,
+     "strength": 1,
+     "top5": [
+      "Donchian breakout"
+     ],
+     "status": "closed",
+     "exit": 144.22,
+     "exit_time": "12:15",
+     "reason": "target",
+     "gross": 2678.0,
+     "charges": 68.22,
+     "net": 2609.78,
+     "cash_after": 17609.78
+    }
+   ]
+  }
+ },
+ "days": {
+  "2026-11-17": {
+   "algo_b": {
+    "checked": [
+     "10:15",
+     "11:15"
+    ],
+    "missed": [],
+    "status": "traded"
+   },
+   "donchian": {
+    "checked": [
+     "10:15"
+    ],
+    "missed": [],
+    "status": "traded"
+   }
+  }
+ }
+}

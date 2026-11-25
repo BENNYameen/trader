@@ -1,0 +1,22 @@
+2026-11-20 11:59:18  Stock autopilot started.
+2026-11-20 14:30:03  stocks: no trade today: no fresh breakout passed the rules (ONGC: breakout 0.04%, under 0.15%; BHARTIARTL: breakout 0.13%, under 0.15%; JIOFIN: breakout 0.06%, under 0.15%; TITAN: breakout 0.02%, under 0.15%; JSWSTEEL: breakout 0.04%, under 0.15%; RELIANCE: breakout 0.03%, under 0.15%)
+2026-11-20 14:30:03  Stock autopilot finished for 2026-11-20.
+2026-11-23 09:55:15  Stock autopilot started.
+2026-11-23 10:11:14  candidate HCLTECH: breakout +0.21% at 10:10 AM, Time Machine: Leans toward the stop: target first 33.1 % vs stop first 58.4 %.
+2026-11-23 10:11:16  Practice buy: 8 HCLTECH at 1367.30 (10:11), stop 1358.00, target 1377.40, out by 15:05. Loss at the stop: Rs 74.40.
+Nothing went to Kite. After 15:05: practice.py settle (it reads the real bars).
+2026-11-23 10:20:03  HCLTECH: TARGET hit, 10:20 at 1377.40. P&L +Rs 80.80, charges Rs 11.68, net +Rs 69.12 (+1.09R).
+2026-11-23 10:20:03  Stock autopilot finished for 2026-11-23.
+2026-11-23 13:47:29  Stock autopilot started.
+2026-11-23 14:30:03  Stock autopilot finished for 2026-11-23.
+2026-11-25 09:28:33  Stock autopilot started.
+2026-11-25 09:36:19  candidate ONGC: breakout +0.24% at 9:35 AM, Time Machine: Leans toward the stop: target first 36.4 % vs stop first 48.1 %.
+2026-11-25 09:36:22  candidate POWERGRID: breakout +0.25% at 9:35 AM, Time Machine: Leans toward the target: target first 33.2 % vs stop first 25.8 %.
+2026-11-25 09:36:22  Practice buy: 42 POWERGRID at 264.85 (09:36), stop 262.20, target 267.70, out by 15:05. Loss at the stop: Rs 111.30.
+Nothing went to Kite. After 15:05: practice.py settle (it reads the real bars).
+2026-11-25 11:01:04  POWERGRID: TARGET hit, 11:00 at 267.70. P&L +Rs 119.70, charges Rs 11.90, net +Rs 107.80 (+1.08R).
+2026-11-25 11:46:22  candidate SBIN: breakout +0.15% at 11:45 AM, Time Machine: Close to a coin flip: target first 22.6 % vs stop first 26.9 %.
+2026-11-25 11:46:23  Practice buy: 9 SBIN at 1150.30 (11:46), stop 1139.70, target 1158.70, out by 15:05. Loss at the stop: Rs 95.40.
+Nothing went to Kite. After 15:05: practice.py settle (it reads the real bars).
+2026-11-25 12:55:04  SBIN: STOP hit, 12:55 at 1139.70. P&L -Rs 95.40, charges Rs 10.94, net -Rs 106.34 (-1.00R).
+2026-11-25 14:30:03  Stock autopilot finished for 2026-11-25.

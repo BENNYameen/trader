@@ -1,0 +1,8 @@
+{
+  "start": "2026-11-26",
+  "start_cash": 15000.0,
+  "cash": 15000.0,
+  "trades": [],
+  "seen": [],
+  "rules": "entry   the same stock, time, price, share count and stop as an autopilot trade, when this book has\n          no open position and the cash covers it (one position at a time)\n  target  2R: entry + 2 x (entry - stop), rounded up to the NSE tick\n  hold    overnight allowed, up to 3 trading days counting the entry day; out by flat_by (15:05) on\n          the 3rd day if neither the stop nor the target was hit\n  fills   from real 5-minute bars, stop before target; a day that opens below the stop fills at the\n          open (gap risk); charges: Zerodha intraday if closed the same day, delivery (CNC) otherwise"
+}

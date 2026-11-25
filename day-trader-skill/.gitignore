@@ -1,0 +1,4 @@
+# The paper-month data (trader/) is kept in this private repo so another machine can continue it.
+# Personal Claude Code permissions stay local; the shared order-blocking rules are in .claude/settings.json.
+.claude/settings.local.json
+__pycache__/

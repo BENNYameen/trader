@@ -1,0 +1,12 @@
+2026-11-20 11:59:18  Options paper run started.
+2026-11-20 12:15:05  ALGO B (trades the account): BUY NIFTY 25800 CE (23 Nov expiry), 1 lot of 65 at Rs 104.28 (Rs 6,778), 5 of 5 agree at 12:15. Stop Rs 83.42, target Rs 145.99.
+2026-11-20 12:15:05  Donchian breakout (shadow): BUY NIFTY 25800 CE (23 Nov expiry), 1 lot of 65 at Rs 104.28 (Rs 6,778), breakout at 12:15. Stop Rs 83.42, target Rs 145.99.
+2026-11-20 14:10:03  ALGO B (trades the account): SELL NIFTY 25800 CE at Rs 145.99 (TARGET, 14:10). P&L Rs +2711.15, charges Rs 68.48, net Rs +2642.67. Book Rs 17,642.67.
+2026-11-20 14:10:03  Donchian breakout (shadow): SELL NIFTY 25800 CE at Rs 145.99 (TARGET, 14:10). P&L Rs +2711.15, charges Rs 68.48, net Rs +2642.67. Book Rs 17,642.67.
+2026-11-20 14:10:03  Options paper run finished for 2026-11-20.
+2026-11-23 09:55:15  Options paper run started.
+2026-11-23 14:15:05  Options paper run finished for 2026-11-23.
+2026-11-25 09:28:35  Options paper run started.
+2026-11-25 11:15:04  ALGO B (trades the account): BUY NIFTY 26300 CE (01 Dec expiry), 1 lot of 65 at Rs 102.04 (Rs 6,632), 4 of 5 agree at 11:15. Stop Rs 81.63, target Rs 142.85.
+2026-11-25 12:35:03  ALGO B (trades the account): SELL NIFTY 26300 CE at Rs 81.63 (STOP, 12:35). P&L Rs -1326.65, charges Rs 60.38, net Rs -1387.03. Book Rs 16,255.64.
+2026-11-25 14:15:04  Options paper run finished for 2026-11-25.

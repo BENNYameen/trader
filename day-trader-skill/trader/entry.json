@@ -1,0 +1,22 @@
+{
+  "created_by": "trader-entry",
+  "symbol": "HINDALCO",
+  "setup": "orb",
+  "side": "buy",
+  "date": "2026-11-19",
+  "status": "triggered",
+  "time": "9:40 AM",
+  "bar_start": "09:35",
+  "bar_index": 4,
+  "price": 902.0,
+  "level": 896.05,
+  "interval": "5m",
+  "opening_range": {
+    "high": 896.05,
+    "low": 881.1,
+    "minutes": 15
+  },
+  "source": "yahoo",
+  "checked_at": "2026-11-19T04:15:00Z",
+  "reason": "the 9:35 bar closed above the range high"
+}

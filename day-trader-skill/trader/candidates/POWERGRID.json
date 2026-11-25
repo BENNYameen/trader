@@ -1,0 +1,28 @@
+{
+  "created_by": "trader-exit",
+  "symbol": "POWERGRID",
+  "side": "buy",
+  "date": "2026-11-25",
+  "setup": "orb",
+  "entry": 264.95,
+  "entry_time": "9:35 AM",
+  "entry_bar": null,
+  "interval": "5m",
+  "opening_range": {
+    "high": 264.3,
+    "low": 260.1,
+    "minutes": 15
+  },
+  "stop": 262.2,
+  "stop_rule": "or_mid",
+  "stop_label": "opening-range midpoint",
+  "target": 267.7,
+  "target_r": 1.0,
+  "target_label": "1R (one times the risk)",
+  "risk_per_share": 2.75,
+  "reward_risk": 1.0,
+  "flat_by": "15:05",
+  "stop_detail": "($264.30 + $260.10) / 2 = $262.2",
+  "created_at": "2026-11-25T04:06:20Z",
+  "note": "A stop is a plan, not a guarantee: a gap or a fast market can fill past it."
+}

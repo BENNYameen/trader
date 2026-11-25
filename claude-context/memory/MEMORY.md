@@ -1,0 +1,4 @@
+- [India + Zerodha setup](india-zerodha-setup.md) — NSE via Zerodha, India mode on, Kite MCP read-only except GTT
+- [Practice month](practice-month.md) — auto paper test 2026-11-20 to ~12-18: stocks Rs 15k + options Rs 15k, trading-day skill, schedule needs user
+- [Options ensemble project](options-ensemble-project.md) — NIFTY/SENSEX options paper trader; breakouts + "best 5" survived the backtest
+- [US original-repo paper test](us-original-paper-test.md) — day-trader-us folder, original code unchanged, Rs 15k = $162.66, US hours 19:30-02:30 IST
